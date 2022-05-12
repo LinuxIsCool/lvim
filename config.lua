@@ -12,6 +12,7 @@ an executable
 lvim.log.level = "warn"
 lvim.format_on_save = true
 lvim.colorscheme = "onedarker"
+
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
@@ -162,3 +163,4 @@ lvim.keys.visual_mode["<leader>j"] = "$"
 lvim.keys.visual_mode["<leader>f"] = "0"
 lvim.keys.normal_mode["<leader>j"] = "$"
 lvim.keys.normal_mode["<leader>f"] = "0"
+lvim.transparent_window = true
